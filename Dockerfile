@@ -10,7 +10,7 @@ RUN apt-get update \
       --nginx yes \
       --apache yes \
       --phpfpm no \
-      --vsftpd no \
+      --vsftpd yes \
       --proftpd no \
       --exim yes \
       --dovecot yes \
