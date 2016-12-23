@@ -3,15 +3,14 @@ MAINTAINER LolHens <pierrekisters@gmail.com>
 
 
 RUN apt-get update \
- && apt-get -y install \
-      wget \
  && cd "/tmp" \
  && curl http://vestacp.com/pub/vst-install.sh | bash -s -- \
       -y no -f \
+      --password admin \
       --nginx yes \
       --apache yes \
       --phpfpm no \
-      --vsftpd yes \
+      --vsftpd no \
       --proftpd no \
       --exim yes \
       --dovecot yes \
