@@ -7,7 +7,7 @@ RUN apt-get update \
       wget \
  && cd "/tmp" \
  && curl http://vestacp.com/pub/vst-install.sh | bash -s -- \
-      --interactive no \
+      -y no -f \
       --nginx yes \
       --apache yes \
       --phpfpm no \
