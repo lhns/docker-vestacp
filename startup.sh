@@ -4,5 +4,4 @@ cd /etc/init.d
 ./nginx start
 ./exim4 start
 ./apache2 start
-./bind9 start
 ./dovecot start
